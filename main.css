@@ -1,0 +1,36 @@
+.nav {
+    display: flexbox;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+}
+
+.nav-left {
+    float: left;
+    padding: 5px;
+}
+
+.nav-right {
+    float: right;
+    padding: 5px;
+}
+
+#googlelogo{
+    align-items: center;
+    padding: 1.5em;
+p}
+
+.footer {
+    display: flexbox;
+    background-color: rgb(158, 158, 158);
+    align-items: center;
+}
+
+.footer-left {
+    float: left;
+    padding: 5px;
+}
+
+.footer-right {
+    float: right;
+    padding: 5px;
+}

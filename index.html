@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Google</title>        
+        <title>Google</title>       
+        <link rel="stylesheet" type="text/css" href="main.css"> 
     </head>
 <body>
-    <div> <!---This is the header navigation bar-->
-        <nav>
-            <a href="#About">About</a>
-            <a href="#Store">Store</a>
-            <a href="#Gmail">Gmail</a>
-            <a href="#Images">Images</a>
-            <a href="#Sign In">Sign In</a>
-        </nav>
-    </div>
+    <nav class="nav"> <!---This is the header navigation bar-->
+        <div> 
+            <a href="#" class="nav-left">About</a></li>
+            <a href="#" class="nav-left">Store</a></li>
+            <a href="#" class="nav-left">Gmail</a></li>
+        </div>
 
-    <div>
+        <div>
+            <img src="/Icons/black-24dp/1x/outline_apps_black_24dp.png" alt="Applications Icon" class="nav-right">
+            <a href="#" class="nav-right">Images</a>
+            <a href="#" class="nav-right">Sign In</a>
+        </div>
+    </nav>
+
+    <div id="googlelogo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
 
@@ -28,6 +33,19 @@
             <input type="submit" value="I'm Feeling Lucky">
         </form>
     </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search Works</a>
+        </div>
+        <div class="footer-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </footer>
 
 </body>
 
