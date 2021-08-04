@@ -1,5 +1,10 @@
+div {
+    background-color: grey;
+    margin: auto;
+}
+
 .nav {
-    display: flexbox;
+    display: inline;
     align-items: center;
     background-color: rgb(197, 197, 197);
 }
@@ -7,20 +12,50 @@
 .nav-left {
     float: left;
     padding: 5px;
+    background-color: rgb(241, 210, 210);
 }
 
 .nav-right {
     float: right;
     padding: 5px;
+    background-color: rgb(209, 206, 206);
 }
 
-#googlelogo{
-    align-items: center;
-    padding: 1.5em;
-p}
+#googlelogo {
+    text-align: center;
+    align-content: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+    background-color: rgb(197, 197, 197);
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.search-bar {
+    width: 400px;
+    border-radius: 25px;
+    border-width: thin;
+    height: 25px;
+    padding: 5px 20px 5px 20px;
+}
+
+.submit-button {
+    display: inline-flex;
+    width: fit-content;
+    text-align: center;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
 
 .footer {
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
     background-color: rgb(158, 158, 158);
     align-items: center;
 }
