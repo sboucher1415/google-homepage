@@ -3,6 +3,17 @@ div {
     margin: auto;
 }
 
+a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .nav {
     display: inline;
     align-items: center;
@@ -48,9 +59,19 @@ div {
     display: inline-flex;
     width: fit-content;
     text-align: center;
+    align-items: center;
+    align-content: center;
     flex-direction: row;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+    background-color: #f8f9fa;
+    border-width: 1px;
+    color:rgb(48, 48, 48);
+}
+
+.submit-button:hover {
+    border: 5px;
+    box-shadow: grey;
 }
 
 .footer {
@@ -61,11 +82,17 @@ div {
 }
 
 .footer-left {
+    display: flexbox;
     float: left;
     padding: 5px;
 }
 
 .footer-right {
+    display: flexbox;
     float: right;
     padding: 5px;
+}
+
+.footer-option {
+    margin: 10px 10px 10px 10px;
 }
