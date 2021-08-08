@@ -1,5 +1,5 @@
 div {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     margin: auto;
 }
 
@@ -15,21 +15,27 @@ a:hover {
 }
 
 .nav {
-    display: inline;
-    align-items: center;
-    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
 }
 
 .nav-left {
     float: left;
+    flex-direction: row;
+    vertical-align: middle;
     padding: 5px;
-    background-color: rgb(241, 210, 210);
+    background-color: rgb(255, 255, 255);
+    align-items: left;
 }
 
 .nav-right {
     float: right;
+    flex-direction: row;
+    vertical-align: middle;
     padding: 5px;
-    background-color: rgb(209, 206, 206);
+    background-color: rgb(255, 255, 255);
+    align-items: flex-end;
 }
 
 #googlelogo {
@@ -37,7 +43,7 @@ a:hover {
     align-content: center;
     padding-top: 5em;
     padding-bottom: 2em;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(255, 255, 255);
 }
 
 .search-form {
@@ -45,6 +51,7 @@ a:hover {
     justify-content: center;
     align-content: center;
     margin-bottom: 50px;
+    text-decoration: none;
 }
 
 .search-bar {
@@ -56,29 +63,37 @@ a:hover {
 }
 
 .submit-button {
+    border: 0px;
     display: inline-flex;
     width: fit-content;
-    text-align: center;
-    align-items: center;
-    align-content: center;
     flex-direction: row;
+    justify-items: center;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
     background-color: #f8f9fa;
-    border-width: 1px;
+    border-radius: 3px;
     color:rgb(48, 48, 48);
 }
 
 .submit-button:hover {
-    border: 5px;
-    box-shadow: grey;
+    display: inline-flex;
+    width: fit-content;
+    text-align: center;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    color:rgb(48, 48, 48);
+    box-shadow: 0 1px 3px rgb(202, 202, 202);
+    border: solid 1px rgb(226, 224, 224);
+    text-decoration: none;
 }
 
 .footer {
-    display: flex;
+    display: flexbox;
     flex-direction: row;
-    background-color: rgb(158, 158, 158);
-    align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 
 .footer-left {
